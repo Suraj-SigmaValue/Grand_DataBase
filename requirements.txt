@@ -1,0 +1,18 @@
+# requirements.txt
+# IGR Data Pipeline
+# Python >= 3.11
+
+# ── Core data processing ──────────────────────────────────────────────────────
+pandas==3.0.1
+numpy==2.4.2
+
+# ── Excel I/O ─────────────────────────────────────────────────────────────────
+openpyxl==3.1.5        # read/write .xlsx files (used by pandas read_excel / to_excel)
+
+# PostgreSQL I/O
+sqlalchemy>=2.0
+psycopg2-binary>=2.9
+sqlalchemy
+rapidfuzz
+dotenv
+psycopg2
